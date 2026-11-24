@@ -1,0 +1,10 @@
+cluster,class,first frame,last frame,frames loaded,CSI shape,mean |H| (dB)
+LOS_cluster1,LOS,200,1199,1000,"(1000, 64, 52)",5.03
+LOS_cluster2,LOS,200,1199,1000,"(1000, 64, 52)",4.82
+LOS_cluster3,LOS,200,1199,1000,"(1000, 64, 52)",3.29
+LOS_cluster4,LOS,200,1199,1000,"(1000, 64, 52)",4.32
+NLOS_cluster1,NLOS,200,1199,1000,"(1000, 64, 52)",3.58
+NLOS_cluster2,NLOS,200,1199,1000,"(1000, 64, 52)",-0.06
+NLOS_cluster3,NLOS,200,1199,1000,"(1000, 64, 52)",3.94
+NLOS_cluster4,NLOS,200,1199,1000,"(1000, 64, 52)",3.06
+NLOS_cluster5,NLOS,200,1199,1000,"(1000, 64, 52)",4.07

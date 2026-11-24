@@ -1,0 +1,135 @@
+{
+  "table": [
+    {
+      "model": "CNN-Transformer",
+      "lopo_mean": 99.71000208247769,
+      "lopo_std": 0.5506458223491105,
+      "lopo_min": 98.11643835616438,
+      "l2po_mean": 96.5771808937387,
+      "l2po_std": 6.343148249349567,
+      "l2po_min": 75.3307725138711,
+      "l2po_f1": 96.34603910297919,
+      "l2po_auc": 0.9894313627331137
+    },
+    {
+      "model": "CNN-LSTM",
+      "lopo_mean": 99.56304385415595,
+      "lopo_std": 0.7390051320394848,
+      "lopo_min": 97.26495726495726,
+      "l2po_mean": 96.0102830837612,
+      "l2po_std": 6.238694571466945,
+      "l2po_min": 74.12467976088813,
+      "l2po_f1": 95.75530456386994,
+      "l2po_auc": 0.9988788573818691
+    },
+    {
+      "model": "RF",
+      "lopo_mean": 94.31701840473723,
+      "lopo_std": 8.153132250562763,
+      "lopo_min": 78.13902294471255,
+      "l2po_mean": 90.39408353018037,
+      "l2po_std": 10.884534739871308,
+      "l2po_min": 64.53101842049544,
+      "l2po_f1": 90.14833512735586,
+      "l2po_auc": 0.9964901064610444
+    },
+    {
+      "model": "SVM",
+      "lopo_mean": 90.85507776611465,
+      "lopo_std": 9.05517563960572,
+      "lopo_min": 75.09101684870036,
+      "l2po_mean": 90.07588455219118,
+      "l2po_std": 7.0578731814524724,
+      "l2po_min": 74.07674064035237,
+      "l2po_f1": 89.53421475896572,
+      "l2po_auc": 0.9847250733532606
+    },
+    {
+      "model": "Nguyen CNN-LSTM (complex CSI + RSSI)",
+      "lopo_mean": 65.40883069240094,
+      "lopo_std": 3.9838173597499655,
+      "lopo_min": 57.372262773722625,
+      "l2po_mean": 65.25001092840184,
+      "l2po_std": 2.6341132777552208,
+      "l2po_min": 61.9535250098464,
+      "l2po_f1": 39.47015114766519,
+      "l2po_auc": 0.6500418847487218
+    },
+    {
+      "model": "Nguyen CNN-LSTM (our input)",
+      "lopo_mean": 97.01255663265428,
+      "lopo_std": 5.003117629512156,
+      "lopo_min": 81.67808219178082,
+      "l2po_mean": 91.79177567283061,
+      "l2po_std": 14.801806246953271,
+      "l2po_min": 32.66267123287671,
+      "l2po_f1": 90.68774034031966,
+      "l2po_auc": 0.9665410668343493
+    }
+  ],
+  "friedman": {
+    "chi2": 246.1048002931476,
+    "p": 3.7653360593607583e-51,
+    "n_splits": 80,
+    "n_models": 6,
+    "nemenyi_cd": 0.8430413690916952,
+    "mean_ranks": {
+      "CNN-Transformer": 2.0625,
+      "CNN-LSTM": 2.275,
+      "RF": 3.6,
+      "SVM": 4.3375,
+      "Nguyen CNN-LSTM (complex CSI + RSSI)": 5.9,
+      "Nguyen CNN-LSTM (our input)": 2.825
+    }
+  },
+  "pairwise": [
+    {
+      "ours": "CNN-Transformer",
+      "nguyen": "Nguyen CNN-LSTM (complex CSI + RSSI)",
+      "mean_diff_points": 32.07067032152184,
+      "wins": 80,
+      "losses": 0,
+      "ties": 0,
+      "p": 7.845373800597935e-15,
+      "p_holm": 3.138149520239174e-14,
+      "r_rank_biserial": 1.0
+    },
+    {
+      "ours": "CNN-Transformer",
+      "nguyen": "Nguyen CNN-LSTM (our input)",
+      "mean_diff_points": 4.263415278136904,
+      "wins": 44,
+      "losses": 22,
+      "ties": 14,
+      "p": 0.0006542889527939655,
+      "p_holm": 0.001308577905587931,
+      "r_rank_biserial": 0.48258706467661694
+    },
+    {
+      "ours": "CNN-LSTM",
+      "nguyen": "Nguyen CNN-LSTM (complex CSI + RSSI)",
+      "mean_diff_points": 31.608757406958286,
+      "wins": 80,
+      "losses": 0,
+      "ties": 0,
+      "p": 7.846757821373925e-15,
+      "p_holm": 3.138149520239174e-14,
+      "r_rank_biserial": 1.0
+    },
+    {
+      "ours": "CNN-LSTM",
+      "nguyen": "Nguyen CNN-LSTM (our input)",
+      "mean_diff_points": 3.801502363573354,
+      "wins": 41,
+      "losses": 29,
+      "ties": 10,
+      "p": 0.009773583022585098,
+      "p_holm": 0.009773583022585098,
+      "r_rank_biserial": 0.3553319919517103
+    }
+  ],
+  "nguyen_reported": {
+    "complex": 96.53,
+    "amplitude": 95.97
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "input": "subcarrier",
+  "n_pca": 64,
+  "conv_filters": [
+    64,
+    128
+  ],
+  "kernel_size": 3,
+  "pool_size": 2,
+  "padding": "valid",
+  "conv_dropout": 0.1,
+  "d_model": null,
+  "pos_encoding": "sinusoidal",
+  "n_blocks": 2,
+  "num_heads": 4,
+  "ff_dim": 128,
+  "attn_dropout": 0.1,
+  "dense_units": 32,
+  "dropout": 0.4,
+  "l2": 0.001,
+  "noise_std": 0.0,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "max_epochs": 50,
+  "inner_patience": 10,
+  "window": 50,
+  "stride": 10,
+  "seed": 42,
+  "data_dir": "output_raw_full"
+}

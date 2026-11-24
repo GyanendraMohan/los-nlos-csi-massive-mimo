@@ -1,0 +1,76 @@
+{
+ "unstated_settings": {
+  "hampel": {
+   "half_width": 3,
+   "n_sigmas": 3.0,
+   "mad_scale": 1.4826,
+   "axis": "time, per subcarrier"
+  },
+  "svc": {
+   "C": 1.0,
+   "gamma": "scale",
+   "degree": 3,
+   "coef0": 0.0
+  }
+ },
+ "svm": {
+  "lopo": {
+   "accuracy": 95.4054715967392,
+   "window_vote": 97.86649497635104,
+   "test_shift": 63.722584719580375,
+   "test_shift_recall_los": 45.3389956705429,
+   "n": 20
+  },
+  "l2po": {
+   "accuracy": 92.17363735568094,
+   "window_vote": 94.96369390049283,
+   "test_shift": 60.91198552850153,
+   "test_shift_recall_los": 41.09682042699731,
+   "n": 60
+  }
+ },
+ "baselines": {
+  "rician_k/lopo": {
+   "accuracy": 90.14347136134879,
+   "test_shift": 85.83664396967518,
+   "n": 20
+  },
+  "rician_k/l2po": {
+   "accuracy": 89.73562223953843,
+   "test_shift": 85.21712553714636,
+   "n": 60
+  },
+  "skewness/lopo": {
+   "accuracy": 66.85300255786528,
+   "test_shift": 68.12049209387669,
+   "n": 20
+  },
+  "skewness/l2po": {
+   "accuracy": 65.72634259098005,
+   "test_shift": 67.32332863253302,
+   "n": 60
+  },
+  "gain_only/lopo": {
+   "accuracy": 54.44386353302958,
+   "test_shift": 54.52068902659069,
+   "n": 20
+  },
+  "gain_only/l2po": {
+   "accuracy": 49.79145008635973,
+   "test_shift": 49.8757455300083,
+   "n": 60
+  }
+ },
+ "same_environment": {
+  "chrono/zheng_svm": 99.5096190116937,
+  "chrono/rician_k": 91.44976738337735,
+  "chrono/skewness": 66.05054696341003,
+  "chrono/gain_only": 56.494404627184714,
+  "chrono/our_svm": 99.8491135420596,
+  "random/zheng_svm": 99.65419679346118,
+  "random/rician_k": 90.95253065073877,
+  "random/skewness": 64.16850047154983,
+  "random/gain_only": 61.71015403961019,
+  "random/our_svm": 100.0
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "csi": "ours",
+  "use_rssi": false,
+  "antenna": 0,
+  "input": "nguyen",
+  "conv_filters": [
+    32,
+    16,
+    8
+  ],
+  "conv_kernels": [
+    8,
+    2,
+    2
+  ],
+  "conv_strides": [
+    2,
+    1,
+    1
+  ],
+  "conv_activations": [
+    "softplus",
+    "softplus",
+    "relu"
+  ],
+  "lstm_units": 10,
+  "dropout": 0.5,
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "max_epochs": 100,
+  "inner_patience": 10,
+  "window": 50,
+  "stride": 10,
+  "seed": 42,
+  "data_dir": "output_raw_full"
+}

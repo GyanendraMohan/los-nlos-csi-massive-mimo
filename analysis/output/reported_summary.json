@@ -1,0 +1,56 @@
+{
+ "nguyen_complex": {
+  "reported": 96.53,
+  "same_environment": 100.0,
+  "lopo": 65.40883069240094,
+  "l2po": 65.25001092840182,
+  "lopo_to_l2po": -0.15881976399911935,
+  "same_to_lopo": -34.59116930759906,
+  "same_to_l2po": -34.74998907159818
+ },
+ "nguyen_ours": {
+  "reported": 95.97,
+  "same_environment": 99.60264900662251,
+  "lopo": 97.01255663265428,
+  "l2po": 91.79177567283062,
+  "lopo_to_l2po": -5.2207809598236565,
+  "same_to_lopo": -2.5900923739682327,
+  "same_to_l2po": -7.810873333791889
+ },
+ "zheng": {
+  "reported": 97.56,
+  "same_environment": 99.5096190116937,
+  "lopo": 95.4054715967392,
+  "l2po": 92.17363735568094,
+  "lopo_to_l2po": -3.231834241058266,
+  "same_to_lopo": -4.104147414954497,
+  "same_to_l2po": -7.335981656012763
+ },
+ "svm": {
+  "reported": null,
+  "same_environment": 99.8491135420596,
+  "lopo": 90.85507776611465,
+  "l2po": 90.07588455219118,
+  "lopo_to_l2po": -0.7791932139234632,
+  "same_to_lopo": -8.994035775944951,
+  "same_to_l2po": -9.773228989868414
+ },
+ "cnn_lstm": {
+  "reported": null,
+  "same_environment": null,
+  "lopo": 99.56304385415594,
+  "l2po": 96.01028308376122,
+  "lopo_to_l2po": -3.5527607703947126,
+  "same_to_lopo": null,
+  "same_to_l2po": null
+ },
+ "cnn_transformer": {
+  "reported": null,
+  "same_environment": null,
+  "lopo": 99.71000208247767,
+  "l2po": 96.5771808937387,
+  "lopo_to_l2po": -3.1328211887389728,
+  "same_to_lopo": null,
+  "same_to_l2po": null
+ }
+}

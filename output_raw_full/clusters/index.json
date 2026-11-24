@@ -1,0 +1,70 @@
+{
+  "feature": "full",
+  "norm": "antenna",
+  "zscore_applied": false,
+  "clusters": {
+    "LOS_cluster1": {
+      "label": 1,
+      "frames": 7939,
+      "features_file": "LOS_cluster1_features.npy",
+      "csi_file": "LOS_cluster1_csi.npy",
+      "mean_amplitude_before_norm": 1.8486088514328003
+    },
+    "LOS_cluster2": {
+      "label": 1,
+      "frames": 7958,
+      "features_file": "LOS_cluster2_features.npy",
+      "csi_file": "LOS_cluster2_csi.npy",
+      "mean_amplitude_before_norm": 1.7919782400131226
+    },
+    "NLOS_cluster1": {
+      "label": 0,
+      "frames": 5880,
+      "features_file": "NLOS_cluster1_features.npy",
+      "csi_file": "NLOS_cluster1_csi.npy",
+      "mean_amplitude_before_norm": 1.5519520044326782
+    },
+    "NLOS_cluster2": {
+      "label": 0,
+      "frames": 3853,
+      "features_file": "NLOS_cluster2_features.npy",
+      "csi_file": "NLOS_cluster2_csi.npy",
+      "mean_amplitude_before_norm": 1.3630300760269165
+    },
+    "NLOS_cluster3": {
+      "label": 0,
+      "frames": 3857,
+      "features_file": "NLOS_cluster3_features.npy",
+      "csi_file": "NLOS_cluster3_csi.npy",
+      "mean_amplitude_before_norm": 1.5702404975891113
+    },
+    "LOS_cluster3": {
+      "label": 1,
+      "frames": 7911,
+      "features_file": "LOS_cluster3_features.npy",
+      "csi_file": "LOS_cluster3_csi.npy",
+      "mean_amplitude_before_norm": 1.5312597751617432
+    },
+    "LOS_cluster4": {
+      "label": 1,
+      "frames": 7900,
+      "features_file": "LOS_cluster4_features.npy",
+      "csi_file": "LOS_cluster4_csi.npy",
+      "mean_amplitude_before_norm": 1.63198983669281
+    },
+    "NLOS_cluster4": {
+      "label": 0,
+      "frames": 3856,
+      "features_file": "NLOS_cluster4_features.npy",
+      "csi_file": "NLOS_cluster4_csi.npy",
+      "mean_amplitude_before_norm": 1.4769233465194702
+    },
+    "NLOS_cluster5": {
+      "label": 0,
+      "frames": 3862,
+      "features_file": "NLOS_cluster5_features.npy",
+      "csi_file": "NLOS_cluster5_csi.npy",
+      "mean_amplitude_before_norm": 1.5821205377578735
+    }
+  }
+}

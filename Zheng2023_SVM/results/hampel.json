@@ -1,0 +1,26 @@
+{
+ "settings": {
+  "half_width": 3,
+  "n_sigmas": 3.0,
+  "mad_scale": 1.4826,
+  "axis": "time, per subcarrier"
+ },
+ "antenna": 0,
+ "replaced_share_original": {
+  "LOS_cluster1": 0.02527202612225915,
+  "LOS_cluster2": 0.017498115104297562,
+  "LOS_cluster3": 0.028353898661065895,
+  "LOS_cluster4": 0.027804284323271665,
+  "NLOS_cluster1": 0.022916666666666665,
+  "NLOS_cluster2": 0.029382698796142866,
+  "NLOS_cluster3": 0.030833050796753157,
+  "NLOS_cluster4": 0.037179819661666134,
+  "NLOS_cluster5": 0.025196191690236226
+ },
+ "replaced_share_snr_equalised": {
+  "LOS_cluster1": 0.04451490693460715,
+  "LOS_cluster2": 0.04180360353393779,
+  "LOS_cluster3": 0.04668766955456375,
+  "LOS_cluster4": 0.04554527750730283
+ }
+}

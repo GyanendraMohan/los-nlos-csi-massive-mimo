@@ -1,0 +1,576 @@
+{
+  "variants": [
+    "complex",
+    "ours"
+  ],
+  "diagnostic_A": {
+    "split": {
+      "name": "test=LOS2+NLOS3",
+      "test": [
+        "LOS_cluster2",
+        "NLOS_cluster3"
+      ],
+      "train": [
+        "LOS_cluster1",
+        "LOS_cluster3",
+        "LOS_cluster4",
+        "NLOS_cluster1",
+        "NLOS_cluster2",
+        "NLOS_cluster4",
+        "NLOS_cluster5"
+      ]
+    },
+    "epochs": 30,
+    "variants": {
+      "complex": {
+        "rows": [
+          {
+            "epoch": 1,
+            "train_acc": 0.5775061124694376,
+            "unseen_acc": 0.6749146757679181,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.0,
+            "unseen_auc": 0.7045585009838372
+          },
+          {
+            "epoch": 2,
+            "train_acc": 0.5775061124694376,
+            "unseen_acc": 0.6749146757679181,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.0,
+            "unseen_auc": 0.7403565704729387
+          },
+          {
+            "epoch": 3,
+            "train_acc": 0.5789731051344743,
+            "unseen_acc": 0.6646757679180887,
+            "unseen_recall_los": 0.9848293299620733,
+            "unseen_recall_nlos": 0.0,
+            "unseen_auc": 0.7781671096422682
+          },
+          {
+            "epoch": 4,
+            "train_acc": 0.47334963325183377,
+            "unseen_acc": 0.39078498293515357,
+            "unseen_recall_los": 0.09734513274336283,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.9223083840183695
+          },
+          {
+            "epoch": 5,
+            "train_acc": 0.45207823960880195,
+            "unseen_acc": 0.3583617747440273,
+            "unseen_recall_los": 0.0493046776232617,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.9639149088664801
+          },
+          {
+            "epoch": 6,
+            "train_acc": 0.541320293398533,
+            "unseen_acc": 0.44112627986348124,
+            "unseen_recall_los": 0.17193426042983564,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.987868773040538
+          },
+          {
+            "epoch": 7,
+            "train_acc": 0.7723716381418093,
+            "unseen_acc": 0.7849829351535836,
+            "unseen_recall_los": 0.6814159292035398,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.9981086434992086
+          },
+          {
+            "epoch": 8,
+            "train_acc": 0.9850855745721271,
+            "unseen_acc": 0.9931740614334471,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.979002624671916,
+            "unseen_auc": 0.9999701364763033
+          },
+          {
+            "epoch": 9,
+            "train_acc": 0.8530562347188264,
+            "unseen_acc": 0.6936860068259386,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.05774278215223097,
+            "unseen_auc": 0.9995188654515531
+          },
+          {
+            "epoch": 10,
+            "train_acc": 0.8183374083129584,
+            "unseen_acc": 0.6911262798634812,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.049868766404199474,
+            "unseen_auc": 0.8981338615858858
+          },
+          {
+            "epoch": 11,
+            "train_acc": 0.8398533007334963,
+            "unseen_acc": 0.7167235494880546,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.12860892388451445,
+            "unseen_auc": 0.7688165085558996
+          },
+          {
+            "epoch": 12,
+            "train_acc": 0.9261613691931541,
+            "unseen_acc": 0.7849829351535836,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.33858267716535434,
+            "unseen_auc": 0.966491467327646
+          },
+          {
+            "epoch": 13,
+            "train_acc": 0.9955990220048899,
+            "unseen_acc": 0.9684300341296929,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9028871391076115,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 14,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 0.9982935153583617,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.994750656167979,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 15,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 16,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 17,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 18,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 19,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 20,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 21,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 22,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 23,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 24,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 25,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 26,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 27,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 28,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 29,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 30,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          }
+        ],
+        "los_share_train": 0.5775061249732971,
+        "los_share_unseen": 0.6749146580696106,
+        "best_train_acc": 1.0,
+        "best_unseen_balanced_acc": 1.0,
+        "verdict": "learns the training clusters and transfers to unseen clusters"
+      },
+      "ours": {
+        "rows": [
+          {
+            "epoch": 1,
+            "train_acc": 0.42249388753056233,
+            "unseen_acc": 0.3250853242320819,
+            "unseen_recall_los": 0.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.7739779209014803
+          },
+          {
+            "epoch": 2,
+            "train_acc": 0.42249388753056233,
+            "unseen_acc": 0.3250853242320819,
+            "unseen_recall_los": 0.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.8360758002594808
+          },
+          {
+            "epoch": 3,
+            "train_acc": 0.42249388753056233,
+            "unseen_acc": 0.3250853242320819,
+            "unseen_recall_los": 0.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.8555186132706862
+          },
+          {
+            "epoch": 4,
+            "train_acc": 0.42249388753056233,
+            "unseen_acc": 0.3250853242320819,
+            "unseen_recall_los": 0.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 0.9862495064223167
+          },
+          {
+            "epoch": 5,
+            "train_acc": 0.9965770171149144,
+            "unseen_acc": 0.9752559726962458,
+            "unseen_recall_los": 0.9949431099873578,
+            "unseen_recall_nlos": 0.9343832020997376,
+            "unseen_auc": 0.9989614130092146
+          },
+          {
+            "epoch": 6,
+            "train_acc": 0.9792176039119804,
+            "unseen_acc": 0.8950511945392492,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.6771653543307087,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 7,
+            "train_acc": 0.9603911980440097,
+            "unseen_acc": 0.8370307167235495,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.49868766404199477,
+            "unseen_auc": 0.9987656410205361
+          },
+          {
+            "epoch": 8,
+            "train_acc": 0.9691931540342298,
+            "unseen_acc": 0.8779863481228669,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.6246719160104987,
+            "unseen_auc": 0.9963732409555001
+          },
+          {
+            "epoch": 9,
+            "train_acc": 0.9731051344743277,
+            "unseen_acc": 0.8796928327645052,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.6299212598425197,
+            "unseen_auc": 0.9904668996021515
+          },
+          {
+            "epoch": 10,
+            "train_acc": 0.9821515892420538,
+            "unseen_acc": 0.9155290102389079,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.7401574803149606,
+            "unseen_auc": 0.9919965756492828
+          },
+          {
+            "epoch": 11,
+            "train_acc": 0.9882640586797066,
+            "unseen_acc": 0.931740614334471,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.7900262467191601,
+            "unseen_auc": 0.9940754087155035
+          },
+          {
+            "epoch": 12,
+            "train_acc": 0.9929095354523227,
+            "unseen_acc": 0.9530716723549488,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.8556430446194225,
+            "unseen_auc": 0.9953711538270106
+          },
+          {
+            "epoch": 13,
+            "train_acc": 0.9958435207823961,
+            "unseen_acc": 0.9667235494880546,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.8976377952755905,
+            "unseen_auc": 0.9959053790842517
+          },
+          {
+            "epoch": 14,
+            "train_acc": 0.9992665036674817,
+            "unseen_acc": 0.9820819112627986,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9448818897637795,
+            "unseen_auc": 0.9997146374402315
+          },
+          {
+            "epoch": 15,
+            "train_acc": 0.9995110024449878,
+            "unseen_acc": 0.992320819112628,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9763779527559056,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 16,
+            "train_acc": 0.9997555012224939,
+            "unseen_acc": 0.9957337883959044,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9868766404199475,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 17,
+            "train_acc": 1.0,
+            "unseen_acc": 0.9974402730375427,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9921259842519685,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 18,
+            "train_acc": 1.0,
+            "unseen_acc": 0.9982935153583617,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.994750656167979,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 19,
+            "train_acc": 1.0,
+            "unseen_acc": 0.9991467576791809,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 0.9973753280839895,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 20,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 21,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 22,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 23,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 24,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 25,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 26,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 27,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 28,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 29,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          },
+          {
+            "epoch": 30,
+            "train_acc": 1.0,
+            "unseen_acc": 1.0,
+            "unseen_recall_los": 1.0,
+            "unseen_recall_nlos": 1.0,
+            "unseen_auc": 1.0
+          }
+        ],
+        "los_share_train": 0.5775061249732971,
+        "los_share_unseen": 0.6749146580696106,
+        "best_train_acc": 1.0,
+        "best_unseen_balanced_acc": 1.0,
+        "verdict": "learns the training clusters and transfers to unseen clusters"
+      }
+    }
+  },
+  "diagnostic_B": {
+    "parts": {
+      "train": [
+        0.0,
+        0.7
+      ],
+      "val": [
+        0.7,
+        0.85
+      ],
+      "test": [
+        0.85,
+        1.0
+      ]
+    },
+    "max_epochs": 100,
+    "variants": {
+      "complex": {
+        "n_windows": {
+          "train": 3670,
+          "val": 754,
+          "test": 755
+        },
+        "epochs_run": 27,
+        "best_epoch": 17,
+        "accuracy": 1.0,
+        "recall_los": 1.0,
+        "recall_nlos": 1.0,
+        "roc_auc": 1.0,
+        "threshold_from_val": 0.9967889189720154,
+        "accuracy_threshold_from_val": 1.0,
+        "los_share_test": 0.6066225171089172
+      },
+      "ours": {
+        "n_windows": {
+          "train": 3670,
+          "val": 754,
+          "test": 755
+        },
+        "epochs_run": 15,
+        "best_epoch": 5,
+        "accuracy": 0.9960264900662251,
+        "recall_los": 1.0,
+        "recall_nlos": 0.98989898989899,
+        "roc_auc": 1.0,
+        "threshold_from_val": 0.6911754608154297,
+        "accuracy_threshold_from_val": 0.9933774834437086,
+        "los_share_test": 0.6066225171089172
+      }
+    }
+  }
+}

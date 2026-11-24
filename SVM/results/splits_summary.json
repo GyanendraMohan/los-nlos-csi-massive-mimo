@@ -1,0 +1,128 @@
+{
+  "settings": {
+    "C": 1.0,
+    "gamma": "scale",
+    "train_subsample": null,
+    "seed": 42
+  },
+  "protocols": {
+    "lopo": {
+      "n_splits": 20,
+      "accuracy_mean": 0.9085507776611464,
+      "accuracy_std": 0.0905517563960572,
+      "accuracy_min": 0.7509101684870036,
+      "accuracy_max": 1.0,
+      "macro_f1_mean": 0.9022093436925337,
+      "macro_f1_std": 0.09381066814239244,
+      "roc_auc_mean": 0.9857144691571497,
+      "roc_auc_std": 0.026169062922961395,
+      "worst_split": "test=LOS2+NLOS2",
+      "held_out_cluster_accuracy": {
+        "LOS_cluster1": {
+          "mean": 0.8908174833102406,
+          "min": 0.8741655120292228,
+          "n": 5
+        },
+        "LOS_cluster2": {
+          "mean": 0.6720281477758231,
+          "min": 0.6272932897712993,
+          "n": 5
+        },
+        "LOS_cluster3": {
+          "mean": 1.0,
+          "min": 1.0,
+          "n": 5
+        },
+        "LOS_cluster4": {
+          "mean": 0.9978987341772152,
+          "min": 0.9963291139240507,
+          "n": 5
+        },
+        "NLOS_cluster1": {
+          "mean": 1.0,
+          "min": 1.0,
+          "n": 4
+        },
+        "NLOS_cluster2": {
+          "mean": 1.0,
+          "min": 1.0,
+          "n": 4
+        },
+        "NLOS_cluster3": {
+          "mean": 0.7173969406274306,
+          "min": 0.6906922478610319,
+          "n": 4
+        },
+        "NLOS_cluster4": {
+          "mean": 0.9876815352697095,
+          "min": 0.9859958506224067,
+          "n": 4
+        },
+        "NLOS_cluster5": {
+          "mean": 0.9903547384774728,
+          "min": 0.9844640082858622,
+          "n": 4
+        }
+      }
+    },
+    "l2po": {
+      "n_splits": 60,
+      "accuracy_mean": 0.9007588455219118,
+      "accuracy_std": 0.07057873181452472,
+      "accuracy_min": 0.7407674064035237,
+      "accuracy_max": 0.9975340136054421,
+      "macro_f1_mean": 0.8953421475896571,
+      "macro_f1_std": 0.07062696774706628,
+      "roc_auc_mean": 0.9847250733532606,
+      "roc_auc_std": 0.016904138346483338,
+      "worst_split": "test=LOS1+LOS2+NLOS2+NLOS5",
+      "held_out_cluster_accuracy": {
+        "LOS_cluster1": {
+          "mean": 0.8440231767225093,
+          "min": 0.6772893311500189,
+          "n": 30
+        },
+        "LOS_cluster2": {
+          "mean": 0.6631481946887828,
+          "min": 0.5065343051017843,
+          "n": 30
+        },
+        "LOS_cluster3": {
+          "mean": 0.99999157291535,
+          "min": 0.999873593730249,
+          "n": 30
+        },
+        "LOS_cluster4": {
+          "mean": 0.9952194092827004,
+          "min": 0.9887341772151899,
+          "n": 30
+        },
+        "NLOS_cluster1": {
+          "mean": 1.0,
+          "min": 1.0,
+          "n": 24
+        },
+        "NLOS_cluster2": {
+          "mean": 1.0,
+          "min": 1.0,
+          "n": 24
+        },
+        "NLOS_cluster3": {
+          "mean": 0.7387650159882465,
+          "min": 0.6598392533056779,
+          "n": 24
+        },
+        "NLOS_cluster4": {
+          "mean": 0.986579356846473,
+          "min": 0.9717323651452282,
+          "n": 24
+        },
+        "NLOS_cluster5": {
+          "mean": 0.9895024167098222,
+          "min": 0.9676333505955463,
+          "n": 24
+        }
+      }
+    }
+  }
+}

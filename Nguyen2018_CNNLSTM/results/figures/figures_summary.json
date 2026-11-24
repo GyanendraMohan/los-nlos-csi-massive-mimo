@@ -1,0 +1,88 @@
+{
+  "mean_ranks": {
+    "CNN-Transformer": 2.0625,
+    "CNN-LSTM": 2.275,
+    "RF": 3.6,
+    "SVM": 4.3375,
+    "complex": 5.9,
+    "ours": 2.825
+  },
+  "nemenyi_cd": 0.8430413690916952,
+  "n_splits": 80,
+  "los_share_lopo": [
+    57.372262773722625,
+    67.4914675767918
+  ],
+  "los_share_l2po": [
+    61.9535250098464,
+    67.46370623398803
+  ],
+  "per_cluster": {
+    "CNN-Transformer": {
+      "LOS_cluster1": 92.61633170378417,
+      "LOS_cluster2": 95.27541990247427,
+      "LOS_cluster3": 100.0,
+      "LOS_cluster4": 99.93093420574338,
+      "NLOS_cluster1": 96.8383072407045,
+      "NLOS_cluster2": 90.30746156730409,
+      "NLOS_cluster3": 99.08136482939634,
+      "NLOS_cluster4": 100.0,
+      "NLOS_cluster5": 99.3362004487659
+    },
+    "CNN-LSTM": {
+      "LOS_cluster1": 90.55585732391816,
+      "LOS_cluster2": 94.628860393715,
+      "LOS_cluster3": 100.0,
+      "LOS_cluster4": 99.89458378771357,
+      "NLOS_cluster1": 96.26956947162427,
+      "NLOS_cluster2": 90.49493813273341,
+      "NLOS_cluster3": 99.07199100112486,
+      "NLOS_cluster4": 100.0,
+      "NLOS_cluster5": 99.3455497382199
+    },
+    "RF": {
+      "LOS_cluster1": 84.51406258434851,
+      "LOS_cluster2": 61.745951962086664,
+      "LOS_cluster3": 98.47373458294959,
+      "LOS_cluster4": 99.88065099457505,
+      "NLOS_cluster1": 100.0,
+      "NLOS_cluster2": 100.0,
+      "NLOS_cluster3": 99.99907403977925,
+      "NLOS_cluster4": 100.0,
+      "NLOS_cluster5": 100.0
+    },
+    "SVM": {
+      "LOS_cluster1": 85.07080776636138,
+      "LOS_cluster2": 66.44167594155027,
+      "LOS_cluster3": 99.99927767845858,
+      "LOS_cluster4": 99.56021699819169,
+      "NLOS_cluster1": 100.0,
+      "NLOS_cluster2": 100.0,
+      "NLOS_cluster3": 73.57124337938441,
+      "NLOS_cluster4": 98.67368109069352,
+      "NLOS_cluster5": 98.96241769623437
+    },
+    "complex": {
+      "LOS_cluster1": 100.0,
+      "LOS_cluster2": 100.0,
+      "LOS_cluster3": 100.0,
+      "LOS_cluster4": 100.0,
+      "NLOS_cluster1": 0.0,
+      "NLOS_cluster2": 0.0,
+      "NLOS_cluster3": 0.0,
+      "NLOS_cluster4": 0.0,
+      "NLOS_cluster5": 0.0
+    },
+    "ours": {
+      "LOS_cluster1": 94.09741082744884,
+      "LOS_cluster2": 95.41267834567455,
+      "LOS_cluster3": 91.42857142857143,
+      "LOS_cluster4": 91.42857142857143,
+      "NLOS_cluster1": 88.97382583170256,
+      "NLOS_cluster2": 85.10498687664042,
+      "NLOS_cluster3": 88.68578927634046,
+      "NLOS_cluster4": 97.47844019497565,
+      "NLOS_cluster5": 97.87771129394166
+    }
+  }
+}

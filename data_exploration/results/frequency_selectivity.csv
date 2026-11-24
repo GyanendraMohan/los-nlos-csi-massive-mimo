@@ -1,0 +1,10 @@
+cluster,class,CV median,CV 10th pct,CV 90th pct
+LOS_cluster1,LOS,0.112,0.059,0.248
+LOS_cluster2,LOS,0.143,0.072,0.324
+LOS_cluster3,LOS,0.076,0.049,0.136
+LOS_cluster4,LOS,0.091,0.054,0.17
+NLOS_cluster1,NLOS,0.355,0.208,0.524
+NLOS_cluster2,NLOS,0.492,0.381,0.617
+NLOS_cluster3,NLOS,0.216,0.109,0.447
+NLOS_cluster4,NLOS,0.27,0.139,0.491
+NLOS_cluster5,NLOS,0.351,0.179,0.536

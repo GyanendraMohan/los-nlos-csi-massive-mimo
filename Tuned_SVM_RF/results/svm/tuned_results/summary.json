@@ -1,0 +1,148 @@
+{
+ "complete": true,
+ "grids": {
+  "svm": [
+   {
+    "C": 1.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 1.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 1.0,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 10.0
+   }
+  ],
+  "rf": [
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 20
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 20
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 20
+   }
+  ]
+ },
+ "fixed": {
+  "svm": {
+   "kernel": "rbf",
+   "gamma": "factor x scale, scale = 1 / (n_features * Var[X]) (scikit-learn 'scale')",
+   "standardisation": "per feature, statistics of the training frames",
+   "threshold": "decision value 0"
+  },
+  "rf": {
+   "n_estimators": 100,
+   "criterion": "gini",
+   "random_state": 42,
+   "threshold": "probability 0.5"
+  }
+ },
+ "search_stride": 4,
+ "criterion": "balanced accuracy on the held-out inner clusters, mean over the folds",
+ "results": {
+  "svm/lopo": {
+   "n": 20,
+   "accuracy_tuned": 96.14649860676167,
+   "accuracy_default": 90.85507776611465,
+   "test_shift_tuned": 93.8259647202826,
+   "default_chosen": 0,
+   "max_diff_when_default": null,
+   "chosen": {
+    "{\"C\": 100.0, \"gamma_factor\": 0.1}": 8,
+    "{\"C\": 1.0, \"gamma_factor\": 0.1}": 5,
+    "{\"C\": 10.0, \"gamma_factor\": 0.1}": 5,
+    "{\"C\": 0.1, \"gamma_factor\": 0.1}": 2
+   }
+  },
+  "svm/l2po": {
+   "n": 60,
+   "accuracy_tuned": 92.71590157432912,
+   "accuracy_default": 90.07588455219118,
+   "test_shift_tuned": 89.76176619860168,
+   "default_chosen": 3,
+   "max_diff_when_default": 0.0,
+   "chosen": {
+    "{\"C\": 1.0, \"gamma_factor\": 0.1}": 19,
+    "{\"C\": 10.0, \"gamma_factor\": 0.1}": 14,
+    "{\"C\": 100.0, \"gamma_factor\": 0.1}": 10,
+    "{\"C\": 0.1, \"gamma_factor\": 0.1}": 7,
+    "{\"C\": 0.1, \"gamma_factor\": 1.0}": 5,
+    "{\"C\": 1.0, \"gamma_factor\": 1.0}": 3,
+    "{\"C\": 10.0, \"gamma_factor\": 1.0}": 1,
+    "{\"C\": 1.0, \"gamma_factor\": 10.0}": 1
+   }
+  }
+ },
+ "merged_from": [
+  "los-nlos-tuned-svm v2 (LOPO final models)",
+  "los-nlos-tuned-svm-l2po v2 (L2PO search and final models)",
+  "search of los-nlos-tuned-svm v1 (resumed in both)"
+ ]
+}

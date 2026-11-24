@@ -1,0 +1,137 @@
+{
+ "complete": true,
+ "grids": {
+  "svm": [
+   {
+    "C": 1.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 1.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 1.0,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 0.1,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 10.0,
+    "gamma_factor": 10.0
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 1.0
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 0.1
+   },
+   {
+    "C": 100.0,
+    "gamma_factor": 10.0
+   }
+  ],
+  "rf": [
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": "sqrt",
+    "min_samples_leaf": 20
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": "log2",
+    "min_samples_leaf": 20
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 1
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 5
+   },
+   {
+    "max_features": 0.05,
+    "min_samples_leaf": 20
+   }
+  ]
+ },
+ "fixed": {
+  "svm": {
+   "kernel": "rbf",
+   "gamma": "factor x scale, scale = 1 / (n_features * Var[X]) (scikit-learn 'scale')",
+   "standardisation": "per feature, statistics of the training frames",
+   "threshold": "decision value 0"
+  },
+  "rf": {
+   "n_estimators": 100,
+   "criterion": "gini",
+   "random_state": 42,
+   "threshold": "probability 0.5"
+  }
+ },
+ "search_stride": 4,
+ "criterion": "balanced accuracy on the held-out inner clusters, mean over the folds",
+ "results": {
+  "rf/lopo": {
+   "n": 20,
+   "accuracy_tuned": 97.53699594398556,
+   "accuracy_default": 94.31701840473723,
+   "test_shift_tuned": 70.53614262726263,
+   "default_chosen": 0,
+   "max_diff_when_default": null,
+   "chosen": {
+    "{\"max_features\": 0.05, \"min_samples_leaf\": 20}": 16,
+    "{\"max_features\": 0.05, \"min_samples_leaf\": 1}": 4
+   }
+  },
+  "rf/l2po": {
+   "n": 60,
+   "accuracy_tuned": 93.55598807644306,
+   "accuracy_default": 90.39408353018037,
+   "test_shift_tuned": 65.43828021265664,
+   "default_chosen": 0,
+   "max_diff_when_default": null,
+   "chosen": {
+    "{\"max_features\": 0.05, \"min_samples_leaf\": 20}": 41,
+    "{\"max_features\": 0.05, \"min_samples_leaf\": 1}": 16,
+    "{\"max_features\": \"log2\", \"min_samples_leaf\": 1}": 2,
+    "{\"max_features\": \"log2\", \"min_samples_leaf\": 20}": 1
+   }
+  }
+ }
+}
