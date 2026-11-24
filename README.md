@@ -82,7 +82,7 @@ Use `los_nlos_deep` for `CNN_LSTM`, `CNN_Transformer`, `Nguyen2018_CNNLSTM` and 
 
 ## Data
 
-Download the Argos dataset of Du and Sabharwal (IEEE Transactions on Vehicular Technology, 2021, doi:10.1109/TVT.2021.3131606) from [DATASET_URL]. Place the nine raw trace files `channe14_LOS_cluster1.hdf5` to `channe14_NLOS_cluster5.hdf5` (about 17 GB) in `raw_traces/`.
+Download the Argos dataset of Du and Sabharwal (IEEE Transactions on Vehicular Technology, 2021, doi:10.1109/TVT.2021.3131606) from the [RENEW project](https://renew.rice.edu/dataset-iuc.html). Place the nine raw trace files `channe14_LOS_cluster1.hdf5` to `channe14_NLOS_cluster5.hdf5` (about 17 GB) in `raw_traces/`.
 
 ## Running
 
