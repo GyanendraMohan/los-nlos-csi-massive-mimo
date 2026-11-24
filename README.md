@@ -116,7 +116,3 @@ The deep models use seed 42 for the final model of every split and 42 + k for in
 ## Dataset citation
 
 X. Du and A. Sabharwal, "Massive MIMO Channels with Inter-User Angle Correlation: Open-Access Dataset, Analysis and Measurement-Based Validation," *IEEE Transactions on Vehicular Technology*, 2021, doi:10.1109/TVT.2021.3131606.
-
-## License
-
-[LICENSE]
